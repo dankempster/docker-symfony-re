@@ -1,4 +1,4 @@
-
+FROM dankempster/php:fpm-alpine
 MAINTAINER Dan Kempster <dev@dankempster.co.uk>
 
 RUN mkdir -p /symfony/cache; \
